@@ -1,1 +1,115 @@
+/*
+🎨 CodeJourney CSS – Day 3 Styling
+CSS is the quiet stylist behind every great HTML tag.
+Today, we're dressing up the talking HTML characters.
+*/
+
+/* 🧢 Base styles for the whole page */
+body {
+  font-family: Arial, sans-serif; /* Clean, modern font */
+  background-color: #f4f4f4; /* Calm background */
+  color: #333; /* Easy-to-read text color */
+  padding: 20px;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* 🏷️ Headings stand out */
+h1, h2, h3 {
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+/* ⭐ Separate sections visually */
+hr {
+  border: none;
+  border-top: 2px dashed #ccc;
+  margin: 40px 0;
+}
+
+/* 💬 Paragraphs look like messages */
+p {
+  background-color: #ffffff;
+  padding: 10px 15px;
+  border-left: 5px solid #3498db;
+  border-radius: 4px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+}
+
+/* 🌟 Highlighted text */
+mark {
+  background-color: #fff3b0;
+  padding: 0 4px;
+}
+
+/* 📷 Images look stylish */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin: 10px 0;
+}
+
+/* 🔗 Links are blue and open in a new tab */
+a {
+  color: #2980b9;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* 📋 Lists */
+ul, ol {
+  margin-left: 30px;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-left: 4px solid #2ecc71;
+  border-radius: 4px;
+}
+
+/* 📊 Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+th {
+  background-color: #ecf0f1;
+}
+
+/* 🧾 Forms */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form input[type="submit"] {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+form input[type="submit"]:hover {
+  background-color: #2980b9;
+}
+
 
