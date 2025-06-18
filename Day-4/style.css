@@ -1,0 +1,127 @@
+/*
+🎨 CodeJourney CSS – Day 4
+CSS is here to turn your plain HTML into a stylish chat experience.
+Let’s make those tags look like they’re having a real conversation.
+*/
+
+/* 🧢 Basic Page Setup */
+body {
+  font-family: Arial, sans-serif; /* Clean and easy to read */
+  background-color: #f4f4f4;      /* Light gray background */
+  color: #333;                    /* Soft black text */
+  padding: 20px;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* 🏷️ Headings that shout proudly */
+h1, h2, h3 {
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+/* ✂️ Break it up with stylish lines */
+hr {
+  border: none;
+  border-top: 2px dashed #ccc;
+  margin: 40px 0;
+}
+
+/* 💬 Chat bubble styles — this is where the magic begins! */
+.chat {
+  max-width: 80%;
+  padding: 12px 16px;
+  margin: 10px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* 🟦 Messages from the left — like HTML tags talking */
+.chat.left {
+  background-color: #e0f7fa;
+  margin-right: auto;
+  border-top-left-radius: 0;
+}
+
+/* 🟩 Messages from the right — like you (the reader) responding */
+.chat.right {
+  background-color: #dcedc8;
+  margin-left: auto;
+  border-top-right-radius: 0;
+}
+
+/* 🖍 Highlighted stuff (like magic markers) */
+mark {
+  background-color: #fff3b0;
+  padding: 0 4px;
+}
+
+/* 📷 Images are now friendly and flexible */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin: 10px 0;
+}
+
+/* 🔗 Stylish, clickable links */
+a {
+  color: #2980b9;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* 📋 Lists now pop out like sticky notes */
+ul, ol {
+  margin-left: 30px;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-left: 4px solid #2ecc71;
+  border-radius: 4px;
+}
+
+/* 📊 Tables get a cleaner, modern look */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+th {
+  background-color: #ecf0f1;
+}
+
+/* 🧾 Forms look user-friendly and responsive */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form input[type="submit"] {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+form input[type="submit"]:hover {
+  background-color: #2980b9;
+}
