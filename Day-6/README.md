@@ -1,6 +1,6 @@
 #CodeJourney – Day 6: Interactive Chat with JavaScript
 
-Welcome to Day 7 of my **60 Days Fullstack Challenge**!  
+Welcome to Day 6 of my **60 Days Fullstack Challenge**!  
 Today, I added a real brain 🧠 to my chat layout using **JavaScript**.
 
 ## 🎯 What I Built
